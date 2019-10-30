@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/myText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginStart="266dp"
+        android:layout_marginLeft="266dp"
+        android:text="My Text"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/myImage"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="TODO"
+        android:cropToPadding="false"
+        android:maxWidth="50dp"
+        android:maxHeight="50dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/celtics"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="5dp" />
+</android.support.constraint.ConstraintLayout>
